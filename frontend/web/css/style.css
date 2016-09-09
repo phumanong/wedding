@@ -1,0 +1,1194 @@
+@charset "UTF-8";
+html,
+body {
+  height: 100%; }
+
+body {
+  font: normal normal 300 14px / 24px 'VNF-Bodoni';
+  word-spacing: normal;
+  color: #666666; }
+
+.center {
+  text-align: center; }
+
+.clear {
+  clear: both; }
+
+.font_size_70 {
+  font-size: 70px; }
+
+.display-none {
+  display: none; }
+
+.carousel-caption {
+  top: 50%;
+  font-size: 30px; }
+
+.carousel-control.right {
+  background-image: none; }
+
+.carousel-indicators li {
+  border-color: #d2af5d; }
+
+.carousel-indicators .active {
+  background-color: #d2af5d; }
+
+.carousel, .item,
+.active {
+  height: 100%; }
+
+.carousel-inner {
+  height: 100%; }
+
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity; }
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0; }
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1; }
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0); }
+.carousel-fade .carousel-control {
+  z-index: 2; }
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+
+/*menu*/
+.menu {
+  background: #ffffff;
+  height: 30px;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  left: 0px;
+  right: 0px;
+  position: relative;
+  z-index: 9999; }
+
+.fixed {
+  position: fixed; }
+
+/*end menu*/
+.tabs nav ul li {
+  border-radius: 30px; }
+
+#main-content {
+  height: 100%;
+  /*end home-page*/
+  /*end child-page*/
+  /*end child-page-contact*/ }
+  #main-content .title {
+    font-family: 'VNF-Bodoni' !important;
+    /*background: red;*/
+    text-align: center;
+    color: #666666; }
+    #main-content .title h2 {
+      font-family: 'VNF-Bodoni' !important;
+      margin: 50px auto;
+      font-size: 40px;
+      color: #d2af5d; }
+  #main-content #trang_chu {
+    margin: 0 auto;
+    height: 100%;
+    /*end slide home-page*/ }
+    #main-content #trang_chu .trang_chu-slide img {
+      width: 100%;
+      cursor: pointer; }
+    #main-content #trang_chu .title {
+      font-family: 'VNF-Bodoni' !important;
+      /*background: red;*/
+      text-align: center;
+      color: #666666; }
+      #main-content #trang_chu .title h2 {
+        font-family: 'VNF-Bodoni' !important;
+        margin: 50px auto;
+        font-size: 40px; }
+    #main-content #trang_chu .dich_vu_content .service_title {
+      font-size: 45px;
+      color: #fff;
+      background: none; }
+    #main-content #trang_chu .gioi_thieu_content .homeAboutMain {
+      margin: 40px auto;
+      position: relative; }
+    #main-content #trang_chu .gioi_thieu_content .homeAbout {
+      width: 100%;
+      position: relative; }
+      #main-content #trang_chu .gioi_thieu_content .homeAbout .showText {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        background: #f5f5f5;
+        z-index: 10;
+        width: 45%;
+        padding: 15px 30px 10px 40px;
+        height: 280px;
+        color: #d2af5d;
+        font-size: 19px;
+        overflow: hidden; }
+        #main-content #trang_chu .gioi_thieu_content .homeAbout .showText h1 {
+          margin-top: 10px; }
+        #main-content #trang_chu .gioi_thieu_content .homeAbout .showText .tit a {
+          color: #d2af5d;
+          font-family: 'VNF-Bodoni'; }
+        #main-content #trang_chu .gioi_thieu_content .homeAbout .showText .tit a:hover {
+          text-decoration: none;
+          cursor: all; }
+        #main-content #trang_chu .gioi_thieu_content .homeAbout .showText .tit img {
+          width: 70px;
+          height: 70px; }
+        #main-content #trang_chu .gioi_thieu_content .homeAbout .showText ul {
+          list-style-type: none; }
+    #main-content #trang_chu .gioi_thieu_content .thumb {
+      display: block;
+      position: relative;
+      width: 65%;
+      height: 600px;
+      overflow: hidden; }
+      #main-content #trang_chu .gioi_thieu_content .thumb img {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%); }
+  #main-content .child_page .container_fluid .img_container_fluid {
+    position: relative; }
+    #main-content .child_page .container_fluid .img_container_fluid img {
+      width: 100%;
+      height: 800px !important; }
+  #main-content .child_page .container_fluid .content_container_fluid {
+    position: absolute;
+    top: 22%;
+    left: 7%;
+    color: white;
+    background-color: rgba(206, 162, 73, 0.8);
+    opacity: 0.8;
+    padding: 30px;
+    text-align: justify;
+    font-size: 20px;
+    width: 500px; }
+    #main-content .child_page .container_fluid .content_container_fluid img {
+      display: inline-block;
+      width: 60px;
+      padding-right: 10px; }
+    #main-content .child_page .container_fluid .content_container_fluid h2 {
+      display: inline-block;
+      margin: 0;
+      padding-bottom: 15px; }
+    #main-content .child_page .container_fluid .content_container_fluid hr {
+      margin: 0 0 10px 0; }
+    #main-content .child_page .container_fluid .content_container_fluid ul {
+      list-style: none;
+      margin: 0 0 0 13%;
+      padding: 0px;
+      line-height: 1.5; }
+  #main-content .child_page_contact {
+    margin: 20px auto; }
+    #main-content .child_page_contact .child_page_contact_left {
+      background-color: #d2af5d;
+      height: 180px; }
+      #main-content .child_page_contact .child_page_contact_left .child_page_contact_left_content {
+        padding: 20px 10px;
+        text-align: center;
+        color: white; }
+        #main-content .child_page_contact .child_page_contact_left .child_page_contact_left_content h4 {
+          margin: 20px auto; }
+        #main-content .child_page_contact .child_page_contact_left .child_page_contact_left_content h2 {
+          margin: 0; }
+    #main-content .child_page_contact .child_page_contact_right {
+      background: #dbc084;
+      height: 180px; }
+      #main-content .child_page_contact .child_page_contact_right .child_page_contact_right_content {
+        padding: 20px 10px;
+        text-align: center;
+        color: white;
+        margin-top: 20px; }
+        #main-content .child_page_contact .child_page_contact_right .child_page_contact_right_content table {
+          font-size: 18px; }
+          #main-content .child_page_contact .child_page_contact_right .child_page_contact_right_content table td {
+            padding: 5px 10px 5px 5px; }
+          #main-content .child_page_contact .child_page_contact_right .child_page_contact_right_content table input[type=text] {
+            width: 60%;
+            float: right;
+            height: 25px;
+            padding: 7px 15px;
+            border: 1px solid #e0e1e1;
+            background-color: #fbfcfc; }
+          #main-content .child_page_contact .child_page_contact_right .child_page_contact_right_content table input[type=date] {
+            width: 60%;
+            float: right;
+            height: 25px;
+            padding: 7px 15px;
+            border: 1px solid #e0e1e1;
+            background-color: #fbfcfc; }
+          #main-content .child_page_contact .child_page_contact_right .child_page_contact_right_content table textarea {
+            width: 60%;
+            float: right;
+            height: 60px;
+            padding: 7px 15px;
+            border: 1px solid #e0e1e1;
+            overflow: hidden; }
+          #main-content .child_page_contact .child_page_contact_right .child_page_contact_right_content table input[type=submit] {
+            border: 1px solid #fff;
+            padding: 2px 15px !important;
+            margin-top: 10px;
+            background: none;
+            color: #fff; }
+  #main-content .event .full-width-wrap {
+    /*padding: 10px 0;*/ }
+    #main-content .event .full-width-wrap .square_1 {
+      background-color: #d2af5d;
+      min-height: 400px;
+      position: relative; }
+      #main-content .event .full-width-wrap .square_1 .wpb_wrapper {
+        position: absolute;
+        top: 35%; }
+        #main-content .event .full-width-wrap .square_1 .wpb_wrapper p {
+          color: #fff;
+          font-size: 18px;
+          padding: 0 10px;
+          text-align: center; }
+    #main-content .event .full-width-wrap .square_2 {
+      min-height: 400px;
+      position: relative; }
+      #main-content .event .full-width-wrap .square_2 .background_square_2 {
+        min-height: 400px;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        background-size: cover;
+        line-height: 0;
+        opacity: 1; }
+        #main-content .event .full-width-wrap .square_2 .background_square_2 .wf-table {
+          padding: 80px;
+          min-height: 400px; }
+          #main-content .event .full-width-wrap .square_2 .background_square_2 .wf-table .banner-inside {
+            background-color: rgba(0, 0, 0, 0.01);
+            border: solid 0px transparent;
+            outline: solid 14px;
+            outline-color: #ffffff;
+            height: 200px;
+            -webkit-transition: all 600ms cubic-bezier(0.165, 0.84, 0.44, 1);
+            transition: all 600ms cubic-bezier(0.165, 0.84, 0.44, 1); }
+            #main-content .event .full-width-wrap .square_2 .background_square_2 .wf-table .banner-inside .banner-inside-content {
+              position: absolute;
+              top: 40%;
+              left: 20%;
+              text-transform: uppercase;
+              color: white; }
+              #main-content .event .full-width-wrap .square_2 .background_square_2 .wf-table .banner-inside .banner-inside-content a {
+                color: #fff;
+                text-decoration: none; }
+          #main-content .event .full-width-wrap .square_2 .background_square_2 .wf-table .banner-inside:hover {
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.4) !important; }
+    #main-content .event .full-width-wrap .square_3 {
+      min-height: 120px;
+      background-color: #dbc084;
+      text-indent: center; }
+      #main-content .event .full-width-wrap .square_3 p {
+        margin: 10px 10px;
+        color: #fff;
+        font-size: 18px;
+        text-align: center; }
+  #main-content .event #tabs .content section {
+    padding: 0;
+    height: 500px;
+    overflow: hidden; }
+    #main-content .event #tabs .content section img {
+      width: 100%;
+      height: 500px; }
+    #main-content .event #tabs .content section .content_inside {
+      position: absolute;
+      top: 0;
+      left: 0%;
+      width: 400px;
+      height: 500px;
+      background: rgba(206, 163, 71, 0.5);
+      color: #fff;
+      text-align: center; }
+      #main-content .event #tabs .content section .content_inside img {
+        height: 150px;
+        width: 150px;
+        margin-top: 30px; }
+  #main-content .event #tabs .content .content-current {
+    width: 100%;
+    max-width: 2000px; }
+  #main-content #child_tiec_cuoi_sanh_tiec_cuoi, #main-content #child_tiec_cuoi_trang_tri_tiec, #main-content #child_tiec_cuoi_menu, #main-content #chuong_trinh_bieu_dien, #main-content #trang_tri_hoi_nghi, #main-content #trang_thiet_bi_hoi_nghi, #main-content #hoi_nghi_tron_goi, #main-content #hoi_nghi_khong_tron_goi, #main-content #dich_vu_fb {
+    height: 800px;
+    position: relative; }
+    #main-content #child_tiec_cuoi_sanh_tiec_cuoi .contact .contact_content .contact_content_left, #main-content #child_tiec_cuoi_trang_tri_tiec .contact .contact_content .contact_content_left, #main-content #child_tiec_cuoi_menu .contact .contact_content .contact_content_left, #main-content #chuong_trinh_bieu_dien .contact .contact_content .contact_content_left, #main-content #trang_tri_hoi_nghi .contact .contact_content .contact_content_left, #main-content #trang_thiet_bi_hoi_nghi .contact .contact_content .contact_content_left, #main-content #hoi_nghi_tron_goi .contact .contact_content .contact_content_left, #main-content #hoi_nghi_khong_tron_goi .contact .contact_content .contact_content_left, #main-content #dich_vu_fb .contact .contact_content .contact_content_left {
+      height: 800px;
+      overflow: hidden; }
+      #main-content #child_tiec_cuoi_sanh_tiec_cuoi .contact .contact_content .contact_content_left .contact_content_inside, #main-content #child_tiec_cuoi_trang_tri_tiec .contact .contact_content .contact_content_left .contact_content_inside, #main-content #child_tiec_cuoi_menu .contact .contact_content .contact_content_left .contact_content_inside, #main-content #chuong_trinh_bieu_dien .contact .contact_content .contact_content_left .contact_content_inside, #main-content #trang_tri_hoi_nghi .contact .contact_content .contact_content_left .contact_content_inside, #main-content #trang_thiet_bi_hoi_nghi .contact .contact_content .contact_content_left .contact_content_inside, #main-content #hoi_nghi_tron_goi .contact .contact_content .contact_content_left .contact_content_inside, #main-content #hoi_nghi_khong_tron_goi .contact .contact_content .contact_content_left .contact_content_inside, #main-content #dich_vu_fb .contact .contact_content .contact_content_left .contact_content_inside {
+        text-align: center;
+        color: #d2af5d; }
+        #main-content #child_tiec_cuoi_sanh_tiec_cuoi .contact .contact_content .contact_content_left .contact_content_inside img, #main-content #child_tiec_cuoi_trang_tri_tiec .contact .contact_content .contact_content_left .contact_content_inside img, #main-content #child_tiec_cuoi_menu .contact .contact_content .contact_content_left .contact_content_inside img, #main-content #chuong_trinh_bieu_dien .contact .contact_content .contact_content_left .contact_content_inside img, #main-content #trang_tri_hoi_nghi .contact .contact_content .contact_content_left .contact_content_inside img, #main-content #trang_thiet_bi_hoi_nghi .contact .contact_content .contact_content_left .contact_content_inside img, #main-content #hoi_nghi_tron_goi .contact .contact_content .contact_content_left .contact_content_inside img, #main-content #hoi_nghi_khong_tron_goi .contact .contact_content .contact_content_left .contact_content_inside img, #main-content #dich_vu_fb .contact .contact_content .contact_content_left .contact_content_inside img {
+          margin-top: 30px;
+          width: 160px;
+          height: 74px; }
+        #main-content #child_tiec_cuoi_sanh_tiec_cuoi .contact .contact_content .contact_content_left .contact_content_inside form table, #main-content #child_tiec_cuoi_trang_tri_tiec .contact .contact_content .contact_content_left .contact_content_inside form table, #main-content #child_tiec_cuoi_menu .contact .contact_content .contact_content_left .contact_content_inside form table, #main-content #chuong_trinh_bieu_dien .contact .contact_content .contact_content_left .contact_content_inside form table, #main-content #trang_tri_hoi_nghi .contact .contact_content .contact_content_left .contact_content_inside form table, #main-content #trang_thiet_bi_hoi_nghi .contact .contact_content .contact_content_left .contact_content_inside form table, #main-content #hoi_nghi_tron_goi .contact .contact_content .contact_content_left .contact_content_inside form table, #main-content #hoi_nghi_khong_tron_goi .contact .contact_content .contact_content_left .contact_content_inside form table, #main-content #dich_vu_fb .contact .contact_content .contact_content_left .contact_content_inside form table {
+          margin: 0 auto; }
+          #main-content #child_tiec_cuoi_sanh_tiec_cuoi .contact .contact_content .contact_content_left .contact_content_inside form table select, #main-content #child_tiec_cuoi_trang_tri_tiec .contact .contact_content .contact_content_left .contact_content_inside form table select, #main-content #child_tiec_cuoi_menu .contact .contact_content .contact_content_left .contact_content_inside form table select, #main-content #chuong_trinh_bieu_dien .contact .contact_content .contact_content_left .contact_content_inside form table select, #main-content #trang_tri_hoi_nghi .contact .contact_content .contact_content_left .contact_content_inside form table select, #main-content #trang_thiet_bi_hoi_nghi .contact .contact_content .contact_content_left .contact_content_inside form table select, #main-content #hoi_nghi_tron_goi .contact .contact_content .contact_content_left .contact_content_inside form table select, #main-content #hoi_nghi_khong_tron_goi .contact .contact_content .contact_content_left .contact_content_inside form table select, #main-content #dich_vu_fb .contact .contact_content .contact_content_left .contact_content_inside form table select {
+            width: 270px;
+            height: 30px;
+            float: right;
+            color: #d2af5d;
+            border-color: #d2af5d;
+            padding: 0 10px; }
+          #main-content #child_tiec_cuoi_sanh_tiec_cuoi .contact .contact_content .contact_content_left .contact_content_inside form table input, #main-content #child_tiec_cuoi_trang_tri_tiec .contact .contact_content .contact_content_left .contact_content_inside form table input, #main-content #child_tiec_cuoi_menu .contact .contact_content .contact_content_left .contact_content_inside form table input, #main-content #chuong_trinh_bieu_dien .contact .contact_content .contact_content_left .contact_content_inside form table input, #main-content #trang_tri_hoi_nghi .contact .contact_content .contact_content_left .contact_content_inside form table input, #main-content #trang_thiet_bi_hoi_nghi .contact .contact_content .contact_content_left .contact_content_inside form table input, #main-content #hoi_nghi_tron_goi .contact .contact_content .contact_content_left .contact_content_inside form table input, #main-content #hoi_nghi_khong_tron_goi .contact .contact_content .contact_content_left .contact_content_inside form table input, #main-content #dich_vu_fb .contact .contact_content .contact_content_left .contact_content_inside form table input {
+            border: 1px solid #d2af5d;
+            width: 270px;
+            float: right;
+            color: #d2af5d;
+            padding: 0 10px; }
+          #main-content #child_tiec_cuoi_sanh_tiec_cuoi .contact .contact_content .contact_content_left .contact_content_inside form table textarea, #main-content #child_tiec_cuoi_trang_tri_tiec .contact .contact_content .contact_content_left .contact_content_inside form table textarea, #main-content #child_tiec_cuoi_menu .contact .contact_content .contact_content_left .contact_content_inside form table textarea, #main-content #chuong_trinh_bieu_dien .contact .contact_content .contact_content_left .contact_content_inside form table textarea, #main-content #trang_tri_hoi_nghi .contact .contact_content .contact_content_left .contact_content_inside form table textarea, #main-content #trang_thiet_bi_hoi_nghi .contact .contact_content .contact_content_left .contact_content_inside form table textarea, #main-content #hoi_nghi_tron_goi .contact .contact_content .contact_content_left .contact_content_inside form table textarea, #main-content #hoi_nghi_khong_tron_goi .contact .contact_content .contact_content_left .contact_content_inside form table textarea, #main-content #dich_vu_fb .contact .contact_content .contact_content_left .contact_content_inside form table textarea {
+            border: 1px solid #d2af5d;
+            color: #d2af5d;
+            padding: 0 10px; }
+    #main-content #child_tiec_cuoi_sanh_tiec_cuoi .contact .contact_content .contact_content_right, #main-content #child_tiec_cuoi_trang_tri_tiec .contact .contact_content .contact_content_right, #main-content #child_tiec_cuoi_menu .contact .contact_content .contact_content_right, #main-content #chuong_trinh_bieu_dien .contact .contact_content .contact_content_right, #main-content #trang_tri_hoi_nghi .contact .contact_content .contact_content_right, #main-content #trang_thiet_bi_hoi_nghi .contact .contact_content .contact_content_right, #main-content #hoi_nghi_tron_goi .contact .contact_content .contact_content_right, #main-content #hoi_nghi_khong_tron_goi .contact .contact_content .contact_content_right, #main-content #dich_vu_fb .contact .contact_content .contact_content_right {
+      height: 800px; }
+      #main-content #child_tiec_cuoi_sanh_tiec_cuoi .contact .contact_content .contact_content_right img, #main-content #child_tiec_cuoi_trang_tri_tiec .contact .contact_content .contact_content_right img, #main-content #child_tiec_cuoi_menu .contact .contact_content .contact_content_right img, #main-content #chuong_trinh_bieu_dien .contact .contact_content .contact_content_right img, #main-content #trang_tri_hoi_nghi .contact .contact_content .contact_content_right img, #main-content #trang_thiet_bi_hoi_nghi .contact .contact_content .contact_content_right img, #main-content #hoi_nghi_tron_goi .contact .contact_content .contact_content_right img, #main-content #hoi_nghi_khong_tron_goi .contact .contact_content .contact_content_right img, #main-content #dich_vu_fb .contact .contact_content .contact_content_right img {
+        height: 800px;
+        width: 100%; }
+  #main-content #lien_he {
+    height: 600px; }
+    #main-content #lien_he .contact .contact_content .contact_content_left {
+      height: 600px;
+      overflow: hidden; }
+      #main-content #lien_he .contact .contact_content .contact_content_left .contact_content_inside {
+        text-align: center;
+        color: #d2af5d; }
+        #main-content #lien_he .contact .contact_content .contact_content_left .contact_content_inside form table {
+          margin: 0 auto; }
+          #main-content #lien_he .contact .contact_content .contact_content_left .contact_content_inside form table select {
+            width: 270px;
+            height: 30px;
+            float: right;
+            color: #d2af5d;
+            border-color: #d2af5d;
+            padding: 0 10px; }
+          #main-content #lien_he .contact .contact_content .contact_content_left .contact_content_inside form table input {
+            border: 1px solid #d2af5d;
+            width: 270px;
+            float: right;
+            color: #d2af5d;
+            padding: 0 10px; }
+          #main-content #lien_he .contact .contact_content .contact_content_left .contact_content_inside form table textarea {
+            border: 1px solid #d2af5d;
+            color: #d2af5d;
+            padding: 0 10px; }
+    #main-content #lien_he .contact .contact_content .contact_content_right {
+      height: 600px; }
+
+.footer {
+  display: block;
+  background: #e6eecc url(../images/beige_paper.png) repeat top left;
+  /* End Footer */ }
+  .footer .footer_logo {
+    margin-bottom: 10px; }
+    .footer .footer_logo img {
+      width: 50px;
+      height: 50px;
+      margin-top: 10px; }
+  .footer .footer_icon {
+    text-align: center;
+    /*margin-left: 40px;*/ }
+    .footer .footer_icon a {
+      margin: 0 25px;
+      display: inline-block;
+      /*line-height: 56px;*/
+      text-decoration: none; }
+      .footer .footer_icon a .fa {
+        border-radius: 40px;
+        background: #cfae61;
+        display: table-cell;
+        vertical-align: middle;
+        width: 40px;
+        height: 40px !important;
+        line-height: 1;
+        font-size: 20px;
+        color: #fff; }
+  .footer .footer_address {
+    color: #cea249;
+    text-align: justify; }
+    .footer .footer_address i {
+      display: inline-block;
+      border-radius: 50px;
+      background: #cfae61;
+      display: table-cell;
+      vertical-align: middle;
+      width: 30px;
+      height: 30px !important;
+      line-height: 0.5;
+      font-size: 16px;
+      color: #fff; }
+    .footer .footer_address p {
+      display: inline-block;
+      margin-left: 20px; }
+
+/*navigation*/
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #menu-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+#cssmenu #menu-button {
+  display: none; }
+
+#cssmenu {
+  width: auto;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1;
+  background: #ffffff; }
+  #cssmenu ul {
+    float: left; }
+  #cssmenu .logo_menu {
+    width: 150px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 8px; }
+    #cssmenu .logo_menu img {
+      width: 150px; }
+
+#menu-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #009ae1;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out; }
+
+#cssmenu > ul > li {
+  float: left; }
+
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center; }
+
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none; }
+
+#cssmenu.align-center ul ul {
+  text-align: left; }
+
+#cssmenu.align-right > ul > li {
+  float: right; }
+
+#cssmenu.align-right ul ul {
+  text-align: right; }
+
+#cssmenu > ul > li > a {
+  padding: 20px;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -ms-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease; }
+
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li.active > a {
+  color: #009ae1; }
+
+#cssmenu > ul > li.has-sub > a {
+  padding-right: 25px; }
+
+#cssmenu > ul > li.has-sub > a::after {
+  position: absolute;
+  top: 21px;
+  right: 10px;
+  width: 4px;
+  height: 4px;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  content: "";
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: border-color 0.2s ease;
+  -moz-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  -o-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease; }
+
+#cssmenu > ul > li.has-sub:hover > a::after {
+  border-color: #009ae1; }
+
+#cssmenu ul ul {
+  position: absolute;
+  left: -9999px; }
+
+#cssmenu li:hover > ul {
+  left: auto; }
+
+#cssmenu.align-right li:hover > ul {
+  right: 0; }
+
+#cssmenu ul ul ul {
+  margin-left: 100%;
+  top: 0; }
+
+#cssmenu.align-right ul ul ul {
+  margin-left: 0;
+  margin-right: 100%; }
+
+#cssmenu ul ul li {
+  height: 0;
+  -webkit-transition: height .2s ease;
+  -moz-transition: height .2s ease;
+  -ms-transition: height .2s ease;
+  -o-transition: height .2s ease;
+  transition: height .2s ease; }
+
+#cssmenu ul li:hover > ul > li {
+  height: 40px; }
+
+#cssmenu ul ul li a {
+  padding: 14px 20px;
+  width: 180px;
+  font-size: 12px;
+  background: #fff;
+  text-decoration: none;
+  color: gray;
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -ms-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease; }
+
+#cssmenu ul ul li:hover > a,
+#cssmenu ul ul li a:hover {
+  color: #009ae1; }
+
+#cssmenu ul ul li.has-sub > a::after {
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  width: 4px;
+  height: 4px;
+  border-bottom: 2px solid gray;
+  border-right: 2px solid gray;
+  content: "";
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition: border-color 0.2s ease;
+  -moz-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  -o-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease; }
+
+#cssmenu.align-right ul ul li.has-sub > a::after {
+  right: auto;
+  left: 10px;
+  border-bottom: 0;
+  border-right: 0;
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd; }
+
+#cssmenu ul ul li.has-sub:hover > a::after {
+  border-color: #ffffff; }
+
+@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2 / 1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+  #cssmenu {
+    width: 100%; }
+
+  #cssmenu ul {
+    width: 100%;
+    display: none; }
+
+  #cssmenu.align-center > ul,
+  #cssmenu.align-right ul ul {
+    text-align: left; }
+
+  #cssmenu ul li,
+  #cssmenu ul ul li,
+  #cssmenu ul li:hover > ul > li {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid rgba(120, 120, 120, 0.15); }
+
+  #cssmenu ul li a,
+  #cssmenu ul ul li a {
+    width: 100%; }
+
+  #cssmenu > ul > li,
+  #cssmenu.align-center > ul > li,
+  #cssmenu.align-right > ul > li {
+    float: none;
+    display: block; }
+
+  #cssmenu ul ul li a {
+    padding: 20px 20px 20px 30px;
+    font-size: 12px;
+    color: #000000;
+    background: none; }
+
+  #cssmenu ul ul li:hover > a,
+  #cssmenu ul ul li a:hover {
+    color: #000000; }
+
+  #cssmenu ul ul ul li a {
+    padding-left: 40px; }
+
+  #cssmenu ul ul,
+  #cssmenu ul ul ul {
+    position: relative;
+    left: 0;
+    right: auto;
+    width: 100%;
+    margin: 0; }
+
+  #cssmenu > ul > li.has-sub > a::after,
+  #cssmenu ul ul li.has-sub > a::after {
+    display: none; }
+
+  #menu-line {
+    display: none; }
+
+  #cssmenu #menu-button {
+    display: block;
+    padding: 20px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase; }
+
+  #cssmenu #menu-button::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: block;
+    width: 15px;
+    height: 2px;
+    background: #000000; }
+
+  #cssmenu #menu-button::before {
+    content: '';
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    display: block;
+    width: 15px;
+    height: 3px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000; }
+
+  #cssmenu .submenu-button {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    display: block;
+    border-left: 1px solid rgba(120, 120, 120, 0.15);
+    height: 52px;
+    width: 52px;
+    cursor: pointer; }
+
+  #cssmenu .submenu-button::after {
+    content: '';
+    position: absolute;
+    top: 21px;
+    left: 26px;
+    display: block;
+    width: 1px;
+    height: 11px;
+    background: #000000;
+    z-index: 99; }
+
+  #cssmenu .submenu-button::before {
+    content: '';
+    position: absolute;
+    left: 21px;
+    top: 26px;
+    display: block;
+    width: 11px;
+    height: 1px;
+    background: #000000;
+    z-index: 99; }
+
+  #cssmenu .submenu-button.submenu-opened:after {
+    display: none; } }
+/*menu*/
+#menu {
+  position: relative; }
+  #menu .img_menu {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 300px;
+    right: 0;
+    z-index: 2;
+    cursor: pointer; }
+    #menu .img_menu img {
+      width: 100%;
+      height: 100%; }
+  #menu .content_menu {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 300px;
+    right: 0;
+    z-index: 3;
+    background: #fff;
+    display: none; }
+    #menu .content_menu .content_menu_logo {
+      display: inline-block;
+      /*margin-left: 10%;*/ }
+      #menu .content_menu .content_menu_logo img {
+        width: 100%;
+        height: 70px;
+        display: inline-block; }
+      #menu .content_menu .content_menu_logo p {
+        width: 50px;
+        height: 50px;
+        color: #cfae61;
+        font-size: 24px;
+        display: inline-block; }
+    #menu .content_menu ul {
+      list-style: none;
+      display: inline-block;
+      height: 70px;
+      /*position: absolute;*/
+      top: 20px;
+      /*margin-left: 30px;*/ }
+      #menu .content_menu ul li {
+        display: inline-block; }
+        #menu .content_menu ul li a {
+          color: gray;
+          padding: 0 20px;
+          border-right: 1px solid gray;
+          font-size: 20px; }
+        #menu .content_menu ul li a:hover {
+          color: #000;
+          text-decoration: none; }
+
+/*thß╗▒c ─æ╞ín*/
+.fs-container {
+  margin: 20px auto 50px auto;
+  position: relative;
+  width: 40%;
+  padding: 0 15%;
+  max-width: 700px;
+  min-width: 220px;
+  height: 500px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box; }
+
+.fs-container:before {
+  content: '';
+  position: absolute;
+  bottom: -40px;
+  background: transparent url(../images/shadow.png) no-repeat center center;
+  height: 90px;
+  width: 90%;
+  left: 5%;
+  opacity: 0.8;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%; }
+
+.fs-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -o-perspective: 1000px;
+  -ms-perspective: 1000px;
+  perspective: 1000px; }
+
+.fs-slider {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  pointer-events: none; }
+
+.fs-block {
+  margin: 0;
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  left: 15%;
+  pointer-events: auto;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease; }
+
+.fs-block:nth-child(1) {
+  -webkit-transform-origin: top right;
+  -webkit-transform: translateX(-100%) rotateY(-35deg);
+  -moz-transform-origin: top right;
+  -moz-transform: translateX(-100%) rotateY(-35deg);
+  -o-transform-origin: top right;
+  -o-transform: translateX(-100%) rotateY(-35deg);
+  -ms-transform-origin: top right;
+  -ms-transform: translate(-100%);
+  transform-origin: top right;
+  transform: translateX(-100%) rotateY(-35deg); }
+
+.no-touch .fs-block:nth-child(1):hover {
+  -webkit-transform: translateX(-100%) rotateY(-30deg);
+  -o-transform: translateX(-100%) rotateY(-30deg);
+  transform: translateX(-100%) rotateY(-30deg); }
+
+.fs-block:nth-child(2) {
+  z-index: 100; }
+
+.fs-block:nth-child(3) {
+  -webkit-transform-origin: top left;
+  -webkit-transform: translateX(100%) rotateY(35deg);
+  -moz-transform-origin: top left;
+  -moz-transform: translateX(100%) rotateY(35deg);
+  -o-transform-origin: top left;
+  -o-transform: translateX(100%) rotateY(35deg);
+  -ms-transform-origin: top left;
+  -ms-transform: translate(100%);
+  transform-origin: top left;
+  transform: translateX(100%) rotateY(35deg); }
+
+.no-touch .fs-block:nth-child(3):hover {
+  -webkit-transform: translateX(100%) rotateY(30deg);
+  -o-transform: translateX(100%) rotateY(30deg);
+  transform: translateX(100%) rotateY(30deg); }
+
+.fs-block:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  pointer-events: none;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border-left: 1px solid #777777;
+  border-right: 1px solid #777777;
+  left: -1px; }
+
+/* Borders are only needed if we have the 3d look */
+.no-csstransforms3d .fs-block:after {
+  border: none; }
+
+.fs-block:nth-child(1):after {
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0, 0, 0, 0.65)), color-stop(100%, rgba(0, 0, 0, 0.2)));
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: -o-linear-gradient(left, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.2) 100%); }
+
+.fs-block:nth-child(2):after {
+  opacity: 0.8;
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.12) 21%, rgba(0, 0, 0, 0.03) 31%, transparent 50%, rgba(0, 0, 0, 0.03) 70%, rgba(0, 0, 0, 0.12) 81%, rgba(0, 0, 0, 0.5) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0, 0, 0, 0.5)), color-stop(21%, rgba(0, 0, 0, 0.12)), color-stop(31%, rgba(0, 0, 0, 0.03)), color-stop(50%, transparent), color-stop(70%, rgba(0, 0, 0, 0.03)), color-stop(81%, rgba(0, 0, 0, 0.12)), color-stop(100%, rgba(0, 0, 0, 0.5)));
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.12) 21%, rgba(0, 0, 0, 0.03) 31%, transparent 50%, rgba(0, 0, 0, 0.03) 70%, rgba(0, 0, 0, 0.12) 81%, rgba(0, 0, 0, 0.5) 100%);
+  background: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.12) 21%, rgba(0, 0, 0, 0.03) 31%, transparent 50%, rgba(0, 0, 0, 0.03) 70%, rgba(0, 0, 0, 0.12) 81%, rgba(0, 0, 0, 0.5) 100%);
+  background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.12) 21%, rgba(0, 0, 0, 0.03) 31%, transparent 50%, rgba(0, 0, 0, 0.03) 70%, rgba(0, 0, 0, 0.12) 81%, rgba(0, 0, 0, 0.5) 100%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.12) 21%, rgba(0, 0, 0, 0.03) 31%, transparent 50%, rgba(0, 0, 0, 0.03) 70%, rgba(0, 0, 0, 0.12) 81%, rgba(0, 0, 0, 0.5) 100%); }
+
+.fs-block:nth-child(3):after {
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.65) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0, 0, 0, 0.2)), color-stop(100%, rgba(0, 0, 0, 0.65)));
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.65) 100%);
+  background: -o-linear-gradient(left, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.65) 100%);
+  background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.65) 100%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.65) 100%); }
+
+.fs-block figure {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 1; }
+
+.fs-block figure:first-child {
+  z-index: 10; }
+
+.fs-block figure img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block; }
+
+.fs-block figcaption {
+  padding: 0 20px;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  top: 25%;
+  background: rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  height: 0%;
+  opacity: 0;
+  text-align: center;
+  -webkit-transition: all 700ms cubic-bezier(0, 0, 0.15, 1);
+  -moz-transition: all 700ms cubic-bezier(0, 0, 0.15, 1);
+  -o-transition: all 700ms cubic-bezier(0, 0, 0.15, 1);
+  -ms-transition: all 700ms cubic-bezier(0, 0, 0.15, 1);
+  transition: all 700ms cubic-bezier(0, 0, 0.15, 1); }
+
+.fs-block figcaption.fs-transition {
+  height: 35%;
+  opacity: 1; }
+
+.fs-block figcaption h3 {
+  font-size: 40px;
+  line-height: 40px;
+  margin: 0;
+  padding: 20px 0;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  font-family: 'Prata', serif;
+  font-weight: normal; }
+
+.fs-block figcaption p {
+  color: #fff;
+  padding: 20px 0;
+  margin: 0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3); }
+
+.fs-navigation {
+  position: absolute;
+  z-index: 2000;
+  bottom: 10px;
+  right: 15%;
+  margin-right: 15px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.fs-navigation span {
+  float: left;
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+  text-indent: -90000px;
+  cursor: pointer;
+  opacity: 0.6;
+  margin-right: 3px;
+  background: rgba(0, 0, 0, 0.4) url(../images/arrow.png) no-repeat 50% 50%;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  pointer-events: auto; }
+
+.fs-navigation span:nth-child(2) {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.fs-navigation span:hover {
+  opacity: 1; }
+
+/* Transitions */
+.fs-block:nth-child(1) figure {
+  -webkit-transition: width 900ms cubic-bezier(0, 0, 0.15, 1) 600ms;
+  -moz-transition: width 900ms cubic-bezier(0, 0, 0.15, 1) 600ms;
+  -o-transition: width 900ms cubic-bezier(0, 0, 0.15, 1) 600ms;
+  -ms-transition: width 900ms cubic-bezier(0, 0, 0.15, 1) 600ms;
+  transition: width 900ms cubic-bezier(0, 0, 0.15, 1) 600ms; }
+
+.fs-block:nth-child(2) figure {
+  -webkit-transition: width 900ms cubic-bezier(0, 0, 0.15, 1) 300ms;
+  -moz-transition: width 900ms cubic-bezier(0, 0, 0.15, 1) 300ms;
+  -o-transition: width 900ms cubic-bezier(0, 0, 0.15, 1) 300ms;
+  -ms-transition: width 900ms cubic-bezier(0, 0, 0.15, 1) 300ms;
+  transition: width 900ms cubic-bezier(0, 0, 0.15, 1) 300ms; }
+
+.fs-block:nth-child(3) figure {
+  -webkit-transition: width 900ms cubic-bezier(0, 0, 0.15, 1);
+  -moz-transition: width 900ms cubic-bezier(0, 0, 0.15, 1);
+  -o-transition: width 900ms cubic-bezier(0, 0, 0.15, 1);
+  -ms-transition: width 900ms cubic-bezier(0, 0, 0.15, 1);
+  transition: width 900ms cubic-bezier(0, 0, 0.15, 1); }
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+  .fs-block figcaption h3 {
+    font-size: 26px; } }
+@media screen and (max-width: 768px) {
+  .fs-block figcaption {
+    padding: 0 10px; }
+
+  .fs-block figcaption h3 {
+    font-size: 16px;
+    padding: 10px 0; }
+
+  .fs-block figcaption p {
+    font-size: 13px; } }
+/*menu-bottom*/
+#menu_bottom * {
+  padding: 0;
+  margin: 0;
+  font: 12px georgia;
+  list-style-type: none; }
+
+#menu_bottom {
+  /*margin-top: 300px;*/
+  float: left;
+  line-height: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+#menu_bottom a {
+  display: block;
+  text-decoration: none;
+  color: #fff; }
+
+#menu_bottom a:hover {
+  background: #cea347; }
+
+#menu_bottom ul li ul li a:hover {
+  background: #ECF1E7;
+  padding-left: 9px;
+  border-left: solid 1px #000; }
+
+#menu_bottom ul li ul li {
+  /*width: 140px; */
+  border: none;
+  color: rgba(206, 163, 71, 0.5);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  background: rgba(206, 163, 71, 0.5);
+  z-index: 1; }
+
+#menu_bottom ul li ul li a {
+  font: 11px arial;
+  font-weight: normal;
+  font-variant: small-caps;
+  padding-top: 3px;
+  padding-bottom: 3px; }
+
+#menu_bottom ul li {
+  float: left;
+  /*width: 146px; */
+  font-weight: bold;
+  border-top: solid 1px rgba(210, 175, 93, 0.7);
+  border-bottom: solid 1px rgba(210, 175, 93, 0.7);
+  background: rgba(210, 175, 93, 0.7); }
+
+#menu_bottom ul li a {
+  font-weight: bold;
+  padding: 15px 10px; }
+
+#menu_bottom li {
+  position: relative;
+  float: left; }
+
+#menu_bottom ul li ul, #menu_bottom:hover ul li ul, #menu_bottom:hover ul li:hover ul li ul {
+  display: none;
+  list-style-type: none;
+  width: 140px; }
+
+#menu_bottom:hover ul, #menu_bottom:hover ul li:hover ul, #menu_bottom:hover ul li:hover ul li:hover ul {
+  display: block; }
+
+#menu_bottom:hover ul li:hover ul li:hover ul {
+  position: absolute;
+  margin-left: 145px;
+  margin-top: -22px;
+  font: 10px; }
+
+#menu_bottom:hover ul li:hover ul {
+  position: absolute;
+  margin-top: 1px;
+  font: 10px; }
+
+#menu_bottom > ul > li:hover > ul {
+  bottom: 100%;
+  border-bottom: 1px solid transparent; }
+
+/*reposive*/
+@media screen and (max-width: 1400px) {
+  #menu .content_menu ul li a {
+    font-size: 16px; } }
+@media screen and (max-width: 1300px) {
+  #menu .content_menu ul li a {
+    font-size: 14px; } }
+
+/*# sourceMappingURL=style.css.map */
